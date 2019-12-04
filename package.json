@@ -1,0 +1,33 @@
+{
+  "name": "webpregnancypill",
+  "version": "1.0.0",
+  "description": "health informatics project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "cookieparser": "^0.1.0",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "hbs": "^4.0.6",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.7.13",
+    "mongoose-url-slugs": "^1.0.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0",
+    "sessions": "0.0.2-7",
+    "slugs": "^0.1.3"
+  }
+}

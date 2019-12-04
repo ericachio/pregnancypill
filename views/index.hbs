@@ -1,0 +1,60 @@
+<br>
+
+<body>
+<center>
+	
+
+	<div id = questions>
+
+		<div id = "body-text">
+				<div class="container">
+					
+					<form method="POST" action="/">
+			  	
+			  		<img src="/img/logo.png" height = 55px width = auto> 
+		          <p>
+		             <label>Expected Due Date: </label>
+		             <br>
+		            	<input type="date" name="dueDate"
+		       				value="">	       			
+		          </p>
+		         
+		          <p>
+		          	<label> Medication: </label> 
+		          	<br>
+		          		<select name="med">
+							<option value="">--Please choose an option--</option>
+								{{#each medicate}}
+								<option value="{{name}}"> {{name}} </option>
+								{{/each}}
+						</select>
+						<br>
+						<br>
+						<input type="submit">
+		          </p>
+		       
+			</form> 
+
+			</div>
+			</div>	
+  			</div>
+			{{#if trimester}}
+				<div id = mini>
+				<div id=ans>
+					<div id=text-ans>
+				<br>
+				{{m1}} <b> {{inputMed}} </b>
+				<br>
+				{{m2}} <b> {{trimester}} </b>
+				<br>
+				{{m3}} <b> {{warning}} </b>	
+					</div>
+					</div>
+					</div>
+			{{/if}}
+
+
+	
+	
+</center>
+</body>
