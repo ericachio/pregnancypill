@@ -1,7 +1,9 @@
 body {
   background-image: url("img/pregnancy.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: right top;
+  /*object-fit: cover*/
   background-color: #f7c2c2;
   position: fixed;
 }
