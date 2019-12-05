@@ -2,12 +2,18 @@ body {
   background-image: url("img/pregnancy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right top;
+  /*background-position: right top;*/
   /*object-fit: cover*/
   background-color: #f7c2c2;
   position: fixed;
+  overflow: hidden;
 }
 
+/*img.source-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
 a{
   font-size: 48px;
   color:  #B86B77;
@@ -78,5 +84,5 @@ a{
     font-size: 20px;
       position: relative;
   width: 600px;
-  height:100px;
+  height:150px;
 }
